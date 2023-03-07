@@ -19,3 +19,6 @@ print('A hora em Espanha é: ' , horaes)
 
 x= 'mariana'
 print (type (x))
+
+
+
