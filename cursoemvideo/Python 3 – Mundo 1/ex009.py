@@ -1,1 +1,13 @@
 # exercicio de tabuada
+print('Neste exercício, escolha um número para que seja calculada a tabuada')
+t=int(input('Insira um número para fazer a tabuada: '))
+print(f'{t} multiplicado por 1 é igual a {t*1}')
+print(f'{t} multiplicado por 2 é igual a {t*2}')
+print(f'{t} multiplicado por 3 é igual a {t*3}')
+print(f'{t} multiplicado por 4 é igual a {t*4}')
+print(f'{t} multiplicado por 5 é igual a {t*5}')
+print(f'{t} multiplicado por 6 é igual a {t*6}')
+print(f'{t} multiplicado por 7 é igual a {t*7}')
+print(f'{t} multiplicado por 8 é igual a {t*8}')
+print(f'{t} multiplicado por 9 é igual a {t*9}')
+print(f'{t} multiplicado por 1 é igual a {t*10}')
