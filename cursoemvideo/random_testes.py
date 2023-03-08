@@ -20,5 +20,13 @@ print('A hora em Espanha é: ' , horaes)
 x= 'mariana'
 print (type (x))
 
+n = (int(input('Indique um número:')))
+print(f'O número indicado é: {n} O antecessor é {n-1} e o sucessor é {n+1}')
+
+
+n = (int(input('Indique um número: ')))
+print(f'A raiz quadrada do número é: {n**(1/2)}')
+print(f'O dobro do número é: {n*2}')
+print(f'O triplo do número é: {n*3}')
 
 
