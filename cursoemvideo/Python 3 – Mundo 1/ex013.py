@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #exercicio de algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento.
 print('Vamos calcular um aumento salarial na ordem dos 15%')
 salario = float(input('Coloque o seu salario: €'))
