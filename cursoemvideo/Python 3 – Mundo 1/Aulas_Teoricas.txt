@@ -1,0 +1,10 @@
+                        Neste documento iremos colocar os apontamentos das aulas
+
+
+Nas librarys, quando se pretende fazer um arredondamento, na library math, um arredondamento para cima utilizamos a funcionalidade ceil que faz um arredondamento para cima e a funcionalidade floor faz o arredondamento para baixo.
+    A funcionalida trunc, vai dar trunc num número, onde vai eliminar da , para a frente. Sem fazer arredondamento nenhum. 
+    A funcionalida de pow, vai funcionar de forma semelhante aos **
+    A funcionalida sqrt é a raiz quadrada.
+    A funcionalidade factorial, vai fazer o cálculo factorial de um número.
+De toda a biblioteca math se quisermos apenas escolher uma funcionalidade em específico, fazemos "from math import sqrt"
+
