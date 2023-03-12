@@ -1,3 +1,4 @@
+# Neste exercício vamos verificar que tipo de class, se é alfanumérico e se tem espaço
 inf = input('Escreva uma frase à sua escolha: ')
 print(f'O texto: {inf} é do tipo: ', type(inf))
 print(f'O texto: {inf} é alfanumerico: ', inf.isalnum())

@@ -11,7 +11,7 @@ print(f'A raiz de um {num} é: {math.ceil(raiz)} ')
 
 #vamos importar a lib random e vamos mostrar um numero real aleatório entre 0 e 1
 import random
-num = random.random()
+num = random.randint(1 , 10)
 print(num)
 
 import emoji
