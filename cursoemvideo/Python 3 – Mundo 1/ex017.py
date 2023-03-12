@@ -7,7 +7,10 @@ print(f'O cateto adjacente é: {cat_a} e o cateto oposto: {cat_b}, logo a hipote
 
 
 #Calcular a hipotenusa sem a lib
+
 cat_a = float(input('Qual a medida do cateto adjacente:'))
 cat_b = float(input('Qual a medida do cateto oposto: '))
-hipot = cat_a ** 2 + cat_b ** 2
-print ( 'A hipotenusa do triângulo é:' )
+#Raiz quadrada é igual a elevar por 1/2
+#sqrt(x) == x**0,5
+hipot = (cat_a ** 2 + cat_b ** 2) ** 0.5
+print (f'A hipotenusa do triângulo é: {hipot :.3f}' )
