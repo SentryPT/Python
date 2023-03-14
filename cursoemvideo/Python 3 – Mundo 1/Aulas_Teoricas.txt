@@ -8,3 +8,11 @@ Nas librarys, quando se pretende fazer um arredondamento, na library math, um ar
     A funcionalidade factorial, vai fazer o cálculo factorial de um número.
 De toda a biblioteca math se quisermos apenas escolher uma funcionalidade em específico, fazemos "from math import sqrt"
 
+
+Aula 09
+
+Slicing string
+- Cada letra numa palavra ou frase, consideramos como um único caracter. Por exemplo, a palavra, "Programação" tem 11 carateres sendo que consideramos o P, 0
+
+- Lista em python é diferenciada através de []
+
