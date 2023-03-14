@@ -14,4 +14,4 @@ cat_b = float(input('Qual a medida do cateto oposto: '))
 #Raiz quadrada é igual a elevar por 1/2
 #sqrt(x) == x**0,5 ou sqrt(x)=x**(1/2)
 hipot = (cat_a ** 2 + cat_b ** 2) ** 0.5
-print (f'A hipotenusa do triângulo é: {hipot :.3f}' )
+print (f'A hipotenusa do triângulo é: {hipot :.3f}')
