@@ -29,3 +29,7 @@ frase.find('de')
 #Análise: Se dentro da frase, existe ou não a palavra pesquisada
 frase = 'Grande pitao pa. É uma linguagem incrível'
 'pitao' in frase
+
+#Para substituir, é o seguinte: 
+frase = 'Grande pitao pa. É uma linguagem incrível'
+frase.replace('pitao' , 'c++')
