@@ -29,3 +29,17 @@ frase.find('de')
 #Análise: Se dentro da frase, existe ou não a palavra pesquisada
 frase = 'Grande pitao pa. É uma linguagem incrível'
 'pitao' in frase
+
+#Transformação de string. Não dá para mexer diretamente nos módulos. Vai substituir 
+frase = 'Grande pitao pa. É uma linguagem incrível'
+frase.replace('pitao' , 'Crl')
+
+#Para colocar tudo em maiúsculas, utilizamos o upper
+frase = 'Grande pitao pa. É uma linguagem incrível'
+frase.upper() #aqui vai ser a frase toda colocada em upper. o contrário será utilizando o lower
+
+#Neste caso, iremos colocar apenas as iniciais com maiúsculas
+frase = 'Grande pitao pa. É uma linguagem incrível'
+frase.capitalize() 
+
+
