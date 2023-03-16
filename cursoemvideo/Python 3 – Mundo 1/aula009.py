@@ -29,3 +29,12 @@ frase.find('de')
 #Análise: Se dentro da frase, existe ou não a palavra pesquisada
 frase = 'Grande pitao pa. É uma linguagem incrível'
 'pitao' in frase
+
+#.lower ou upper, coloca em minúsculas ou maiúsculas
+#.capitalize vai colocar todas as iniciais em maiúsculas
+#.title vê quantas palavras tem e após cada espaço, coloca a inicial em maiúscula
+
+#.strip vai remover todos os espaços inúteis no início e no fim
+# se colocarmos   .rstrip    vai remover os espaços à direita
+frase = '       Grande pitao pa. É uma linguagem incrível          '
+frase.rstrip()
