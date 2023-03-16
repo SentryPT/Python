@@ -36,5 +36,10 @@ frase = 'Grande pitao pa. É uma linguagem incrível'
 
 #.strip vai remover todos os espaços inúteis no início e no fim
 # se colocarmos   .rstrip    vai remover os espaços à direita
+# Se fosse o lstrip é o da esquerda
 frase = '       Grande pitao pa. É uma linguagem incrível          '
 frase.rstrip()
+
+#na divisão de strings é o seguinte: 
+    #.split() vai criar uma divisão em cada espaço das strings.
+
