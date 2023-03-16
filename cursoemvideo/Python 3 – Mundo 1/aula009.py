@@ -42,4 +42,13 @@ frase.rstrip()
 
 #na divisão de strings é o seguinte: 
     #.split() vai criar uma divisão em cada espaço das strings.
+    
+    
+    ex22
+    nome = str (input('Indique o seu nome completo: ')).strip()
+print('Analisando o seu nome....')
+print(f'o seu nome em maiusculas é: {nome.upper()}'  )
+print(f'O seu nome em minúsculas é: {nome.lower()}' )
+print(f'O seu nome tem ao todo {len(nome)-nome.count('')} letras')  
+
 
