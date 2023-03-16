@@ -1,8 +1,11 @@
 #Separando dígitos de um número
 num = int(input('Indique um número: '))
-n = str(num)
+u = num // 1 % 10 #divide por 1 e tira o resto da divisão por 10
+d = num // 10 % 10 #divide por 10 e tira o resto da divisão por 10
+c = num // 100 % 10 #divide por 100 e tira o resto da divisão por 10
+m = num // 1000 % 10 #divide por 1000 e tira o resto da divisão por 10
 print(f'Analisando o seguinte número: {num}')
-print(f'Unidades: {n[3]}') #digito 3 é a unidade
-print(f'Dezenas: {n[2]}') # digito 2 é a dezena
-print(f'Centenas: {n[1]}') # digito 1 é a centena
-print(f'Milhares: {n[0]}') #digito 0 é o milhar
+print(f'Unidades: {u}') 
+print(f'Dezenas: {d}') 
+print(f'Centenas: {c}') 
+print(f'Milhares: {m}') 
