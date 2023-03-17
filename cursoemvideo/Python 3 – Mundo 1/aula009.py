@@ -53,3 +53,23 @@ print(f'O seu nome em minúsculas é: {nome.lower()}' )
 print(f"O seu nome tem ao todo {len(nome)-nome.count(' ')} letras")  
 
 
+
+#ex25
+nome = str(input('Indique o seu nome completo: ')).strip()
+print(f"O seu nome tem Silva? {('silva' in nome.lower())}")
+
+#ex26 - fazemos o upper, para por todas as palavras em caps e faz a conta
+frase = str(input('Escreva uma frase à sua escolha: ')).strip().upper()
+print(f"A letra A surge {frase.count('A')} vezes ")
+print(f"A letra A surge na {frase.find('A') + 1}ª posição ")
+print(f" A letra A surge em último na posição {frase.rfind('A')}") #aqui vai procurar a partir do lado direito, posição final
+print(frase)
+
+
+#ex 27
+n = str(input('Indique o seu nome completo: ')).strip()
+nome = n.split() # vai dividir o nome inteiro em partes
+print(nome)
+print(f' O seu primeiro nome é: {nome[0]}') #vai mostrar o primeiro nome que está na primeira posição
+print(f' O seu último nome é: {nome[len(nome)-1]}')#vai mostrar o nome que está na ultima posição
+
