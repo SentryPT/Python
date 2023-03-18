@@ -70,6 +70,4 @@ print(frase)
 n = str(input('Indique o seu nome completo: ')).strip()
 nome = n.split() # vai dividir o nome inteiro em partes
 print(nome)
-print(f' O seu primeiro nome é: {nome[0]}') #vai mostrar o primeiro nome que está na primeira posição
-print(f' O seu último nome é: {nome[len(nome)-1]}')#vai mostrar o nome que está na ultima posição
-
+print(f' O seu primeiro nome é {nome[0]} e o seu apelido é {nome [-1]}')
