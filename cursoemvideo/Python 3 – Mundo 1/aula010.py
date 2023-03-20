@@ -59,9 +59,9 @@ print('-=-'*20)
 tx_alcool = float ( input(' Indique a taxa de alcool no sangue: '))
 if tx_alcool <= 0.49:
     print(f'Pois bem. Com uma taxa de {tx_alcool}, és um PedroGF45')
-elif 0.5 >= tx_alcool and tx_alcool <= 0.79: 
+elif tx_alcool >= 0.5 and tx_alcool <= 0.79: 
     print(f'Pois é meu menino. Já levas de prémio entre 250€ a 1250€')
-elif 0.8 >= tx_alcool and tx_alcool <= 1.2:
+elif tx_alcool >= 0.8 and tx_alcool <= 1.2:
     print(f'A tua taxa de {tx_alcool}, é à Peneirol. Larga os 500€ até 2500€.')
 elif tx_alcool >= 1.2:
     print(f'Oh maninho, com essa taxa de {tx_alcool}, já vais é de cana. Aquele abraço.')
@@ -86,3 +86,11 @@ else:
     print(f'O seu imc de {imc :.2}, está no nível de Obesidade Grau III')
 
 print('Promova um hábito de vida saudável, ingira acima de 2l de água por dia e realize atividade física diariamente. Por si, pela sua saúde.')
+
+
+#ex30
+num = int (input('Digite um número para saber se é par ou impar:'))
+if num % 2 == 0:
+    print(f'O {num} é um número par')
+else:
+    print(f'O {num} é um número impar.')
