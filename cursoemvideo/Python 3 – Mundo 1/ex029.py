@@ -1,6 +1,5 @@
-#ex 29 par ou impar
-num = int (input ('Digite um numero, para ver se é par ou impar'))
-if num % 2 == 0:
-    print(f'O valor indicado, {num}, é par. ')
-else:
-    print(f'O valor indicado, {num}, é impar.')
+#ex 29 radar 
+speed = float (input('Indique a velocidade a que seguia sff:'))
+if speed > 80:
+    multa = (speed - 80) * 7
+    print(f'Como seguia a {speed}km/h, a sua multa será de {multa}€')
